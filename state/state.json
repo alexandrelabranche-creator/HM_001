@@ -1,0 +1,443 @@
+{
+  "version": "rothmorgil_heatmap_state_v1",
+  "generated_utc": "2026-03-01T22:31:03.878541Z",
+  "region_clocks": {
+    "murmure": 4,
+    "ouest": 3,
+    "sauvages": 2
+  },
+  "rule": {
+    "default": 0,
+    "note": "Baseline auto: all 1/6 values were converted to 0/6 to reduce noise and data entry."
+  },
+  "levels": {
+    "Akkaba": 4,
+    "Barr.": 0,
+    "Baardum": 3,
+    "Bödrk": 2,
+    "Denth": 0,
+    "Friesgunt": 3,
+    "Geldam": 0,
+    "Goetsburg": 2,
+    "Holt": 0,
+    "Jaborg": 2,
+    "Kir (capitale)": 0,
+    "Kük": 0,
+    "Lech": 2,
+    "Liedenn": 0,
+    "Maadenlov": 2,
+    "Nultss": 2,
+    "Obborg": 2,
+    "Obernt": 3,
+    "Oedett": 0,
+    "Ojik": 3,
+    "Oth": 2,
+    "Pelmorgen": 0,
+    "Psarro": 0,
+    "Schoeffelgarth": 3,
+    "Stygg": 0,
+    "Szoth": 0,
+    "Tisz": 0,
+    "Tolne": 3,
+    "Udder": 0,
+    "Undvik": 2,
+    "Urd": 0,
+    "Vuk": 0,
+    "Vorsteldam": 2,
+    "Voth": 3,
+    "Ykk / Ukk": 0,
+    "Tratt": 0,
+    "Zulsch": 0,
+    "#   Baardum": 0,
+    "Ökir": 0,
+    "Öorv": 0
+  },
+  "render_standard": {
+    "variant": "2_saturating_gaussian",
+    "palette": "5color_blue-cyan-green-yellow-red",
+    "sigma": 95,
+    "alpha_min": 90,
+    "alpha_max": 235,
+    "gamma": 1.35,
+    "floor": 0.1
+  },
+  "city_positions_norm": {
+    "Akkaba": {
+      "x_norm": 0.67626953125,
+      "y_norm": 0.41379310344827586
+    },
+    "Barr.": {
+      "x_norm": 0.32958984375,
+      "y_norm": 0.6862068965517242
+    },
+    "Baardum": {
+      "x_norm": 0.703125,
+      "y_norm": 0.39655172413793105
+    },
+    "Bödrk": {
+      "x_norm": 0.27685546875,
+      "y_norm": 0.30948275862068964
+    },
+    "Denth": {
+      "x_norm": 0.40771484375,
+      "y_norm": 0.23706896551724138
+    },
+    "Friesgunt": {
+      "x_norm": 0.7080078125,
+      "y_norm": 0.5775862068965517
+    },
+    "Geldam": {
+      "x_norm": 0.27734375,
+      "y_norm": 0.5646551724137931
+    },
+    "Goetsburg": {
+      "x_norm": 0.50927734375,
+      "y_norm": 0.7655172413793103
+    },
+    "Holt": {
+      "x_norm": 0.80078125,
+      "y_norm": 0.34913793103448276
+    },
+    "Jaborg": {
+      "x_norm": 0.8935546875,
+      "y_norm": 0.1853448275862069
+    },
+    "Kir (capitale)": {
+      "x_norm": 0.228515625,
+      "y_norm": 0.3793103448275862
+    },
+    "Kük": {
+      "x_norm": 0.13427734375,
+      "y_norm": 0.2025862068965517
+    },
+    "Lech": {
+      "x_norm": 0.26,
+      "y_norm": 0.43333333333333335
+    },
+    "Liedenn": {
+      "x_norm": 0.609375,
+      "y_norm": 0.23879310344827587
+    },
+    "Maadenlov": {
+      "x_norm": 0.2294921875,
+      "y_norm": 0.20689655172413793
+    },
+    "Nultss": {
+      "x_norm": 0.5810546875,
+      "y_norm": 0.5775862068965517
+    },
+    "Obborg": {
+      "x_norm": 0.9033203125,
+      "y_norm": 0.1939655172413793
+    },
+    "Obernt": {
+      "x_norm": 0.2294921875,
+      "y_norm": 0.5474137931034483
+    },
+    "Oedett": {
+      "x_norm": 0.49072265625,
+      "y_norm": 0.5387931034482759
+    },
+    "Ojik": {
+      "x_norm": 0.8203125,
+      "y_norm": 0.5474137931034483
+    },
+    "Oth": {
+      "x_norm": 0.50634765625,
+      "y_norm": 0.23275862068965517
+    },
+    "Pelmorgen": {
+      "x_norm": 0.8115234375,
+      "y_norm": 0.20948275862068966
+    },
+    "Psarro": {
+      "x_norm": 0.82275390625,
+      "y_norm": 0.40948275862068967
+    },
+    "Schoeffelgarth": {
+      "x_norm": 0.5078125,
+      "y_norm": 0.39655172413793105
+    },
+    "Stygg": {
+      "x_norm": 0.31640625,
+      "y_norm": 0.27844827586206894
+    },
+    "Szoth": {
+      "x_norm": 0.52001953125,
+      "y_norm": 0.6637931034482759
+    },
+    "Tisz": {
+      "x_norm": 0.64501953125,
+      "y_norm": 0.5646551724137931
+    },
+    "Tolne": {
+      "x_norm": 0.361328125,
+      "y_norm": 0.31896551724137934
+    },
+    "Tratt": {
+      "x_norm": 0.6201171875,
+      "y_norm": 0.4267241379310345
+    },
+    "Udder": {
+      "x_norm": 0.45068359375,
+      "y_norm": 0.27241379310344827
+    },
+    "Undvik": {
+      "x_norm": 0.79345703125,
+      "y_norm": 0.5517241379310345
+    },
+    "Urd": {
+      "x_norm": 0.56884765625,
+      "y_norm": 0.3275862068965517
+    },
+    "Vuk": {
+      "x_norm": 0.87158203125,
+      "y_norm": 0.28620689655172415
+    },
+    "Vorsteldam": {
+      "x_norm": 0.15869140625,
+      "y_norm": 0.3017241379310345
+    },
+    "Voth": {
+      "x_norm": 0.537109375,
+      "y_norm": 0.23275862068965517
+    },
+    "Ykk / Ukk": {
+      "x_norm": 0.62353515625,
+      "y_norm": 0.3543103448275862
+    },
+    "Öjik": {
+      "x_norm": 0.8203125,
+      "y_norm": 0.5474137931034483
+    },
+    "#   Baardum": {
+      "x_norm": 0.6689453125,
+      "y_norm": 0.4396551724137931
+    },
+    "Zulsch": {
+      "x_norm": 0.31005859375,
+      "y_norm": 0.40948275862068967
+    },
+    "Öborg": {
+      "x_norm": 0.9033203125,
+      "y_norm": 0.1939655172413793
+    },
+    "Jaböörg": {
+      "x_norm": 0.8935546875,
+      "y_norm": 0.1853448275862069
+    },
+    "Kir": {
+      "x_norm": 0.228515625,
+      "y_norm": 0.3793103448275862
+    },
+    "Trati": {
+      "x_norm": 0.619140625,
+      "y_norm": 0.4224137931034483
+    },
+    "Ökir": {
+      "x_norm": 0.1904296875,
+      "y_norm": 0.4396551724137931
+    },
+    "Barr": {
+      "x_norm": 0.32958984375,
+      "y_norm": 0.6862068965517242
+    },
+    "Böörk": {
+      "x_norm": 0.27685546875,
+      "y_norm": 0.30948275862068964
+    },
+    "Ykk": {
+      "x_norm": 0.62353515625,
+      "y_norm": 0.3543103448275862
+    },
+    "Öorv": {
+      "x_norm": 0.26953125,
+      "y_norm": 0.4560344827586207
+    },
+    "Ö": {
+      "x_norm": 0.26953125,
+      "y_norm": 0.4560344827586207
+    }
+  },
+  "city_positions_source": "manual_centers_progressive_v1 (default approx from cells, overridden by user px) + centres_villes_template_px.txt + centres_villes_template_px.txt (latest) + centres_villes_template_px.txt (update incl. Zulsch) + centres_villes_template_px.txt (update names: Jaböörg/Öborg/Kir) + centres_villes_template_px.txt (v14, Ökir distinct) + centres_villes_template_px.txt (v15) + centres_villes_template_px.txt (v16) + alias Ö→Öorv (v17)",
+  "city_name_notes": {
+    "Tratt": "User-corrected spelling; previously 'Trati'.",
+    "Öjik": "Alias for Ojik (diacritic variant)."
+  },
+  "manual_centers_px": {
+    "Kük": {
+      "x_px": 275,
+      "y_px": 235
+    },
+    "Maadenlov": {
+      "x_px": 470,
+      "y_px": 240
+    },
+    "Liedenn": {
+      "x_px": 1248,
+      "y_px": 277
+    },
+    "Ojik": {
+      "x_px": 1680,
+      "y_px": 635
+    },
+    "Tratt": {
+      "x_px": 1270,
+      "y_px": 495
+    },
+    "Oedett": {
+      "x_px": 1005,
+      "y_px": 625
+    },
+    "Undvik": {
+      "x_px": 1625,
+      "y_px": 640
+    },
+    "Urd": {
+      "x_px": 1165,
+      "y_px": 380
+    },
+    "Voth": {
+      "x_px": 1100,
+      "y_px": 270
+    },
+    "#   Baardum": {
+      "x_px": 1370,
+      "y_px": 510
+    },
+    "Friesgunt": {
+      "x_px": 1450,
+      "y_px": 670
+    },
+    "Goetsburg": {
+      "x_px": 1043,
+      "y_px": 888
+    },
+    "Obernt": {
+      "x_px": 470,
+      "y_px": 635
+    },
+    "Oth": {
+      "x_px": 1037,
+      "y_px": 270
+    },
+    "Schoeffelgarth": {
+      "x_px": 1040,
+      "y_px": 460
+    },
+    "Zulsch": {
+      "x_px": 635,
+      "y_px": 475
+    },
+    "Jaborg": {
+      "x_px": 1830,
+      "y_px": 215
+    },
+    "Obborg": {
+      "x_px": 1850,
+      "y_px": 225
+    },
+    "Akkaba": {
+      "x_px": 1385,
+      "y_px": 480
+    },
+    "Barr.": {
+      "x_px": 675,
+      "y_px": 796
+    },
+    "Baardum": {
+      "x_px": 1440,
+      "y_px": 460
+    },
+    "Bödrk": {
+      "x_px": 567,
+      "y_px": 359
+    },
+    "Denth": {
+      "x_px": 835,
+      "y_px": 275
+    },
+    "Nultss": {
+      "x_px": 1190,
+      "y_px": 670
+    },
+    "Ökir": {
+      "x_px": 390,
+      "y_px": 510
+    },
+    "Pelmorgen": {
+      "x_px": 1662,
+      "y_px": 243
+    },
+    "Psarro": {
+      "x_px": 1685,
+      "y_px": 475
+    },
+    "Stygg": {
+      "x_px": 648,
+      "y_px": 323
+    },
+    "Szoth": {
+      "x_px": 1065,
+      "y_px": 770
+    },
+    "Tisz": {
+      "x_px": 1321,
+      "y_px": 655
+    },
+    "Tolne": {
+      "x_px": 740,
+      "y_px": 370
+    },
+    "Udder": {
+      "x_px": 923,
+      "y_px": 316
+    },
+    "Vorsteldam": {
+      "x_px": 325,
+      "y_px": 350
+    },
+    "Geldam": {
+      "x_px": 568,
+      "y_px": 655
+    },
+    "Holt": {
+      "x_px": 1640,
+      "y_px": 405
+    },
+    "Kir (capitale)": {
+      "x_px": 468,
+      "y_px": 440
+    },
+    "Vuk": {
+      "x_px": 1785,
+      "y_px": 332
+    },
+    "Ykk / Ukk": {
+      "x_px": 1277,
+      "y_px": 411
+    },
+    "Öorv": {
+      "x_px": 552,
+      "y_px": 529
+    }
+  },
+  "alias_used_last_import": {
+    "Barr": "Barr.",
+    "Böörk": "Bödrk",
+    "Jaböörg": "Jaborg",
+    "Kir": "Kir (capitale)",
+    "Ö": "Öorv",
+    "Öborg": "Obborg",
+    "Ykk": "Ykk / Ukk"
+  },
+  "new_cities_last_import": [
+    "Öorv"
+  ],
+  "unmapped_entries_last_import": {
+    "Ö": {
+      "x_px": 552,
+      "y_px": 529
+    }
+  }
+}

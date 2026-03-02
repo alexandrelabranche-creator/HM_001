@@ -1,0 +1,7 @@
+# Outputs
+outputs_heatmap/
+app/__pycache__/
+**/__pycache__/
+*.pyc
+*.tmp
+.DS_Store
